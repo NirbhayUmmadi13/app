@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+body{
+  background: linear-gradient(to bottom, #ECE87D, #E3F2B7);
+  
+}
+.box{
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  width: 100%;
+  margin-top: 80px;
+}
+.innerbox{
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  width: 100%;
+  margin: auto; background:linear-gradient(to bottom, #55CAF2, #3184EE);
+  padding:25px;
+  border-radius:10px;
+  color:black;
+  width: 400px;
+  height: 500px;
+  
+}
+
+.innerbox h1{
+  color: #ECE87D;
+  font-size:40px ;
+  margin: 10px 0px;
+}
+.tempcity h1{ 
+  color: #ECE87D;
+  font-size: 75px;
+  margin: 10px 0px;
+  }
+h3{
+color: aliceblue;
+margin-top: 0px;
+}
+.tempcity{
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin-right: auto;
+}
+.brokeimg{
+  display: flex;
+  flex-direction: row;
+ margin-right: auto;
+ width: 60%;
+ font-size: 20px;
+}
+.brokeimg svg{
+  width: 30%;
+}
+.boxof3{
+  width:100%;
+  height: 120px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items:center ;
+  margin-top: 20px;
+}
+.wind{
+  background-color: white;
+  padding: 10px;
+  border-radius: 15px;
+  color: rgb(47, 47, 47);
+  display: flex;
+  flex-direction: column;
+  align-items:center ;
+  margin-top: 20px;
+  width: 90px;
+}
+.humidity{
+  background-color: white;
+  padding: 10px;
+  border-radius: 15px;
+  color: rgb(47, 47, 47);
+  display: flex;
+  flex-direction: column;
+  align-items:center ;
+  margin-top: 20px;
+  width: 90px;
+}
+.AP{
+  background-color: white;
+  padding: 10px;
+  border-radius: 15px;
+  color: rgb(47, 47, 47);
+  display: flex;
+  flex-direction: column;
+  align-items:center ;
+  margin-top: 20px;
+  width: 90px;
+}
+.wind h3{
+  color: rgb(47, 47, 47);
+}
+.humidity h3{
+  color: rgb(47, 47, 47);
+}
+.AP h3{
+  color: rgb(47, 47, 47);
+}
