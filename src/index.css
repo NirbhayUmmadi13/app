@@ -33,7 +33,7 @@ body{
   border-radius:10px;
   color:black;
   width: 400px;
-  height: 500px;
+ 
   
 }
 
@@ -69,7 +69,6 @@ margin-top: 0px;
 }
 .boxof3{
   width:100%;
-  height: 120px;
   display: flex;
   justify-content: space-evenly;
   flex-direction: row;
@@ -117,4 +116,32 @@ margin-top: 0px;
 }
 .AP h3{
   color: rgb(47, 47, 47);
+}
+.btn{
+margin-top: 25px;
+padding: 15px;
+border-radius: 15px;
+border: none;
+background-color:#ECE87D ;
+font-size: 20px;
+cursor: pointer;
+
+}
+.btn:hover{
+  border: 2px solid black;
+}
+.for{
+border-radius: 15px;
+border: 6px;
+border-width: 60px;
+}
+select{
+  border-radius: 15px;
+border: 5px;
+padding:8px 23px  ;
+}
+p{
+text-transform: capitalize;
+font-weight: 700;
+color: white;
 }
